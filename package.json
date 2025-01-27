@@ -32,6 +32,7 @@
   "devDependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
     "react-refresh": "^0.16.0",
+    "sass": "^1.83.4",
     "webpack-dev-server": "^4.15.2"
   }
 }
