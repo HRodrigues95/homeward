@@ -4,6 +4,7 @@ import MainLayout from "../layout"
 import Home from "../pages/Home"
 
 const Village = React.lazy(() => import("../pages/Village"))
+const Register = React.lazy(() => import("../pages/Register"))
 
 const ClientRoutes = () => {
   return (
@@ -11,6 +12,7 @@ const ClientRoutes = () => {
       <Routes>
         <Route element={<MainLayout />}>
           <Route index element={<Home />} />
+          <Route path='register' element={<Register />} />
           <Route path="villages" element={<Village />} />
         </Route>
       </Routes>
